@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+} from "react-router-dom";
+import About from './pages/About.js';
+import Education from './pages/Education.js';
+import Projects from './pages/Projects.js';
+import Experience from './pages/Experience.js';
+import Blog from './pages/Blog.js';
+import AthleteBrandingComparison from './articles/AthleteBrandingComparison.js'
+class App extends Component {
+  constructor(props) {
+    super(props);
+  }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  render() {
+    return (
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path="/Education" component={Education} />
+          <Route exact path="/Projects" component={Projects} />
+          <Route exact path="/Experience" component={Experience} />
+          <Route exact path="/Blog" component={Blog} />
+          <Route exact path="/Athlete-Branding-Comparison" component={AthleteBrandingComparison} />
+        </Switch>
+      </BrowserRouter>
+    )
+  }
 }
 
 export default App;

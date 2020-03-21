@@ -3,12 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "d3": "^5.15.0",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-fontawesome": "^1.7.1",
+    "react-highlight": "^0.12.0",
+    "react-highlight.js": "^1.0.7",
+    "react-icons": "^3.9.0",
+    "react-latex": "^1.6.0",
+    "react-markdown": "^4.3.1",
+    "react-mathjax": "^1.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "rehype-katex": "^2.0.0",
+    "remark-math": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,7 +32,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

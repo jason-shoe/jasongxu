@@ -1,0 +1,15 @@
+:root{
+  --header-one: #EA5455;
+  --text-color: black;
+  --font-color: #33475b;
+}
+
+.underline{
+  border-bottom: 1px solid var(--header-one);
+}
+
+.everything{
+  width: 70%;
+  margin: 0 auto;
+  
+}

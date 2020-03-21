@@ -1,0 +1,66 @@
+#current_page{
+  opacity: 1
+}
+#current_page::before{
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: var(--header-one);
+  width: 100%;
+  bottom: 10px;
+  opacity: 1;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:80px;
+
+}
+
+.header_text{
+    margin: 0px 30px;
+    height:19px;
+    font-size:15px;
+    color: var(--text-color);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+    font-family: 'Futura';
+    text-decoration-line: none;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+}
+
+.header_text:hover{
+    opacity: 1;
+}
+
+.header_text::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: var(--header-one);
+  width: 100%;
+  bottom: 5px;
+  opacity: 0;
+}
+
+.header_text:hover::before {
+  bottom: 10px;
+  opacity: 1;
+}

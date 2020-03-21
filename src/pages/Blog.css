@@ -1,0 +1,7 @@
+.article-list-big{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.article-list-small{
+}

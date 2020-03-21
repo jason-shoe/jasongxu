@@ -1,0 +1,153 @@
+.everything{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.experience_header{
+  font-size:35px;
+  font-weight:bold;
+  width: 100%;
+  text-align: center;
+  margin:0px;
+  border-bottom: 1px solid var(--header-one);
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  padding-top: 3px;
+}
+.experience_entry{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experience_left_text{
+  margin: 0;
+  flex-basis: 80%;
+  color: gray;
+}
+.experience_right_text{
+  margin: auto 3%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width: 130px;
+}
+
+#button_shift{
+  margin-top: 30px;
+}
+
+.experience_entry_header{
+  font-size: 25px;
+  margin: 10px 0px 0px 0px;
+}
+#date{
+  font-weight:lighter;
+  font-size: 20px;
+  font-style:italic;
+}
+li{
+  font-size:15px;
+  color:gray;
+}
+#button_shift{
+  margin:0 auto;
+  width:64px;
+}
+
+#website_label{
+  text-align:center;
+  margin: 0 auto;
+  color:var(--font-color);
+}
+
+
+.language_image{
+  width: 70px;
+  margin: 0 5px;
+}
+
+.all_languages{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.language_label{
+  margin-top: 3px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.language_image_and_text{
+  -webkit-transition: .5s ease;
+  margin: 0 10px;
+
+}
+
+.language_image_and_text:hover{
+  transform: scale(1.25);
+}
+.language_header{
+  margin: 10px auto;
+  text-align:center;
+  font-size: 20px;
+}
+.dash{
+  margin: 0 auto;
+  text-align: center;
+  color: var(--header-one);
+  font-size: 20px;
+  padding: 0px;
+}
+
+.website_button{
+  text-align:center;
+  border: 1px solid rgb(234,84,85);
+  border-radius: 15px;
+  padding: 10px;
+  color: rgb(234,84,85);
+  text-decoration-line: none;
+  -webkit-transition: 1s ease;
+}
+.website_button:hover{
+  background-color:#f08486;
+  color:white;
+}
+
+.axis-grid line {
+  stroke: #def;
+  stroke-width: 2;
+}
+
+.mainaxis text{
+  font-size: 14px;
+}
+.container{
+  position:relative;
+}
+
+.axislabel text{
+  font-size: 20px;
+}
+
+.containercolumn{
+  width:460px;
+}
+
+#area3{
+  width:460px;
+}
+
+.containerrow{
+  display:flex;
+  flex-direction:row;
+}
+
+#description_project{
+  margin: auto 10px;
+}
+
+.project_header{
+  text-align:center;
+}
