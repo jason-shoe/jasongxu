@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.dc34df4c.chunk.js",
-    "main.js.map": "/static/js/main.dc34df4c.chunk.js.map",
+    "main.css": "/static/css/main.a356773f.chunk.css",
+    "main.js": "/static/js/main.72f583d4.chunk.js",
+    "main.js.map": "/static/js/main.72f583d4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f5dc94a.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f5dc94a.js.map",
-    "static/js/2.2b29e2f0.chunk.js": "/static/js/2.2b29e2f0.chunk.js",
-    "static/js/2.2b29e2f0.chunk.js.map": "/static/js/2.2b29e2f0.chunk.js.map",
+    "static/js/2.bbba19dd.chunk.js": "/static/js/2.bbba19dd.chunk.js",
+    "static/js/2.bbba19dd.chunk.js.map": "/static/js/2.bbba19dd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.116e0a9ed604fa7f3d90b01cbd686407.js": "/precache-manifest.116e0a9ed604fa7f3d90b01cbd686407.js",
+    "precache-manifest.7d8645cd5372f78b396293a5f9e95898.js": "/precache-manifest.7d8645cd5372f78b396293a5f9e95898.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.2b29e2f0.chunk.js.LICENSE.txt": "/static/js/2.2b29e2f0.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "static/css/main.a356773f.chunk.css.map": "/static/css/main.a356773f.chunk.css.map",
+    "static/js/2.bbba19dd.chunk.js.LICENSE.txt": "/static/js/2.bbba19dd.chunk.js.LICENSE.txt",
+    "static/media/1FollowerLorenz.png": "/static/media/1FollowerLorenz.868dfe1a.png",
+    "static/media/1NBAScatterPlot.csv": "/static/media/1NBAScatterPlot.d79d4580.csv",
+    "static/media/1NFLScatterPlot.csv": "/static/media/1NFLScatterPlot.bb897d14.csv",
+    "static/media/1SalaryLorenz.png": "/static/media/1SalaryLorenz.59b67d9c.png",
+    "static/media/1YearlyGrowth.png": "/static/media/1YearlyGrowth.a5de3638.png",
+    "static/media/browndatathon.jpg": "/static/media/browndatathon.b8652a67.jpg",
+    "static/media/nbavsnfl.jpg": "/static/media/nbavsnfl.04cfca59.jpg",
+    "static/media/nbavsnflcropped.png": "/static/media/nbavsnflcropped.feef8358.png",
+    "static/media/profile.jpeg": "/static/media/profile.40381fd4.jpeg",
+    "static/media/saslogo.png": "/static/media/saslogo.b25e4da0.png",
+    "static/media/topcoder.png": "/static/media/topcoder.b4778b36.png",
+    "static/media/topcoderlogosmall.jpg": "/static/media/topcoderlogosmall.7c51fe4b.jpg",
+    "static/media/topcoderlogosmallred.jpg": "/static/media/topcoderlogosmallred.2c68d683.jpg",
+    "static/media/tuftsemblem.png": "/static/media/tuftsemblem.8a59f829.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8f5dc94a.js",
-    "static/js/2.2b29e2f0.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.dc34df4c.chunk.js"
+    "static/js/2.bbba19dd.chunk.js",
+    "static/css/main.a356773f.chunk.css",
+    "static/js/main.72f583d4.chunk.js"
   ]
 }
