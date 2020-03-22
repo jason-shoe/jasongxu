@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.84dd66e5.chunk.css",
-    "main.js": "/static/js/main.0cae2441.chunk.js",
-    "main.js.map": "/static/js/main.0cae2441.chunk.js.map",
+    "main.css": "/static/css/main.e42f91d5.chunk.css",
+    "main.js": "/static/js/main.be1c6f2f.chunk.js",
+    "main.js.map": "/static/js/main.be1c6f2f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f5dc94a.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f5dc94a.js.map",
-    "static/js/2.bcfb0ae1.chunk.js": "/static/js/2.bcfb0ae1.chunk.js",
-    "static/js/2.bcfb0ae1.chunk.js.map": "/static/js/2.bcfb0ae1.chunk.js.map",
+    "static/js/2.898e6274.chunk.js": "/static/js/2.898e6274.chunk.js",
+    "static/js/2.898e6274.chunk.js.map": "/static/js/2.898e6274.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f629465174b9ec2584cb04fc238c2630.js": "/precache-manifest.f629465174b9ec2584cb04fc238c2630.js",
+    "precache-manifest.94dbc4688ff31d62052b29f9b05f647b.js": "/precache-manifest.94dbc4688ff31d62052b29f9b05f647b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.84dd66e5.chunk.css.map": "/static/css/main.84dd66e5.chunk.css.map",
-    "static/js/2.bcfb0ae1.chunk.js.LICENSE.txt": "/static/js/2.bcfb0ae1.chunk.js.LICENSE.txt",
+    "static/css/main.e42f91d5.chunk.css.map": "/static/css/main.e42f91d5.chunk.css.map",
+    "static/js/2.898e6274.chunk.js.LICENSE.txt": "/static/js/2.898e6274.chunk.js.LICENSE.txt",
     "static/media/1FollowerLorenz.png": "/static/media/1FollowerLorenz.868dfe1a.png",
     "static/media/1NBAScatterPlot.csv": "/static/media/1NBAScatterPlot.d79d4580.csv",
     "static/media/1NFLScatterPlot.csv": "/static/media/1NFLScatterPlot.bb897d14.csv",
     "static/media/1SalaryLorenz.png": "/static/media/1SalaryLorenz.59b67d9c.png",
     "static/media/1YearlyGrowth.png": "/static/media/1YearlyGrowth.a5de3638.png",
     "static/media/browndatathon.jpg": "/static/media/browndatathon.b8652a67.jpg",
+    "static/media/jxuResume.pdf": "/static/media/jxuResume.e0f62790.pdf",
     "static/media/nbavsnfl.jpg": "/static/media/nbavsnfl.04cfca59.jpg",
     "static/media/nbavsnflcropped.png": "/static/media/nbavsnflcropped.feef8358.png",
     "static/media/profile.jpeg": "/static/media/profile.40381fd4.jpeg",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8f5dc94a.js",
-    "static/js/2.bcfb0ae1.chunk.js",
-    "static/css/main.84dd66e5.chunk.css",
-    "static/js/main.0cae2441.chunk.js"
+    "static/js/2.898e6274.chunk.js",
+    "static/css/main.e42f91d5.chunk.css",
+    "static/js/main.be1c6f2f.chunk.js"
   ]
 }
