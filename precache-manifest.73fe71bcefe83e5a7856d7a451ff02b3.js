@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b4257c91daaa0e4e8ca607b0314a3ad",
+    "revision": "264e6655c4f01e0c0117062c9546b298",
     "url": "/index.html"
   },
   {
-    "revision": "4aa0f50533170e26a4d5",
+    "revision": "114583cd4be898650cc4",
     "url": "/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "5381e7a958db5205b3d0",
-    "url": "/static/css/main.273792a8.chunk.css"
+    "revision": "cbe27a9a5a6d552b4426",
+    "url": "/static/css/main.158a13d9.chunk.css"
   },
   {
-    "revision": "4aa0f50533170e26a4d5",
-    "url": "/static/js/2.cd735661.chunk.js"
+    "revision": "114583cd4be898650cc4",
+    "url": "/static/js/2.2626ef0d.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/static/js/2.cd735661.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2626ef0d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5381e7a958db5205b3d0",
-    "url": "/static/js/main.8874e8c3.chunk.js"
+    "revision": "cbe27a9a5a6d552b4426",
+    "url": "/static/js/main.04b384ad.chunk.js"
   },
   {
     "revision": "1a525d3dd34be7394446",
@@ -46,6 +46,126 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a5de36384e49fe99a7b8a52a0f6ca9ad",
     "url": "/static/media/1YearlyGrowth.a5de3638.png"
+  },
+  {
+    "revision": "9e3b1ac64ce19271f5c6b52d966f1893",
+    "url": "/static/media/1calm.9e3b1ac6.png"
+  },
+  {
+    "revision": "157c35a8f56df673c23c8fe78cc376a4",
+    "url": "/static/media/1energetic.157c35a8.png"
+  },
+  {
+    "revision": "dde1d388934f62b0465094fc5c322c03",
+    "url": "/static/media/1happy.dde1d388.png"
+  },
+  {
+    "revision": "e9a521f467ac10b891b4db0a058d9848",
+    "url": "/static/media/1sad.e9a521f4.png"
+  },
+  {
+    "revision": "bcdc1317a059fdb62c7f5f95afa79d68",
+    "url": "/static/media/2dataset2DecisionTreeConfusionMatrix.bcdc1317.png"
+  },
+  {
+    "revision": "2412803d9dae2892e77463444c9d849b",
+    "url": "/static/media/2dataset2DecisionTreeOverfitting.2412803d.png"
+  },
+  {
+    "revision": "24a52e22ab9e9010a5d04fc629fafdb8",
+    "url": "/static/media/2dataset2pairplot.24a52e22.png"
+  },
+  {
+    "revision": "8e8f41b4134ff3bbd5484c974a0b277c",
+    "url": "/static/media/3dataset3KDE1.8e8f41b4.png"
+  },
+  {
+    "revision": "ae5b0ce28c09c3956699d2657b42571d",
+    "url": "/static/media/3dataset3KDE10.ae5b0ce2.png"
+  },
+  {
+    "revision": "9b2f60f0f583e8a3fee2696ca6efc170",
+    "url": "/static/media/3dataset3KDE11.9b2f60f0.png"
+  },
+  {
+    "revision": "0842cffccc6e96c3a341f4d37dff0947",
+    "url": "/static/media/3dataset3KDE2.0842cffc.png"
+  },
+  {
+    "revision": "c51368dd33b8dfba0851044825485b31",
+    "url": "/static/media/3dataset3KDE3.c51368dd.png"
+  },
+  {
+    "revision": "8f2ffbfdef3ead3d5808e9ddf3390666",
+    "url": "/static/media/3dataset3KDE4.8f2ffbfd.png"
+  },
+  {
+    "revision": "a397be5a12c85930051ca12c20dcfaae",
+    "url": "/static/media/3dataset3KDE5.a397be5a.png"
+  },
+  {
+    "revision": "570d9d862f519df6a7b98524e3c83757",
+    "url": "/static/media/3dataset3KDE6.570d9d86.png"
+  },
+  {
+    "revision": "2e65890d8eed8f2751b8db3f8af8585f",
+    "url": "/static/media/3dataset3KDE7.2e65890d.png"
+  },
+  {
+    "revision": "4356bd5f102741b224de61035118e387",
+    "url": "/static/media/3dataset3KDE8.4356bd5f.png"
+  },
+  {
+    "revision": "ad27f0f76ae1aaf55840d4342e41959b",
+    "url": "/static/media/3dataset3KDE9.ad27f0f7.png"
+  },
+  {
+    "revision": "a58c1debe43c52165ef1945e8946d170",
+    "url": "/static/media/5dataset13DecisionTreeConfusionMatrix.a58c1deb.png"
+  },
+  {
+    "revision": "e988108addddff67a4eb517852b4ee8a",
+    "url": "/static/media/5dataset13DecisionTreeOverfitting.e988108a.png"
+  },
+  {
+    "revision": "a2d8c4e9f588aa8d277bd4fceeb8c681",
+    "url": "/static/media/5dataset13SGDConfusionMatrix1.a2d8c4e9.png"
+  },
+  {
+    "revision": "d1efe616399e94a973588c552a85cd6c",
+    "url": "/static/media/5dataset13SGDConfusionMatrix2.d1efe616.png"
+  },
+  {
+    "revision": "f58d50e25dfd3fc3a6aa89abca4e2dc4",
+    "url": "/static/media/6dataset131.f58d50e2.png"
+  },
+  {
+    "revision": "ebb0cffe2bf2a193b720e15b0bbffd86",
+    "url": "/static/media/6dataset132.ebb0cffe.png"
+  },
+  {
+    "revision": "048ceac60553bce36788a13ad58213ee",
+    "url": "/static/media/6dataset133.048ceac6.png"
+  },
+  {
+    "revision": "c4d4149282c57c4ffb63e32de946a05f",
+    "url": "/static/media/6dataset134.c4d41492.png"
+  },
+  {
+    "revision": "5229d67e3ef1ba157467ab2a0b0f88af",
+    "url": "/static/media/6dataset13CoefficientsHeatmap.5229d67e.png"
+  },
+  {
+    "revision": "e424a511503052430738fa384b468e88",
+    "url": "/static/media/6dataset13ConfusionMatrix1.e424a511.png"
+  },
+  {
+    "revision": "0c447bcd067ca4a95ce6f99c4a0c27d7",
+    "url": "/static/media/6dataset13ConfusionMatrix2.0c447bcd.png"
+  },
+  {
+    "revision": "a8a84a71b6e5fdb7d2c41a4db6120a18",
+    "url": "/static/media/6finaltest.a8a84a71.png"
   },
   {
     "revision": "845e8f8daa922564d059e01a2609775b",
@@ -144,8 +264,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pie6.9bf3e851.csv"
   },
   {
-    "revision": "d2f2f3eff398a142ea9cb8e55f9f54f1",
-    "url": "/static/media/pietotal.d2f2f3ef.csv"
+    "revision": "206b024aa2a7d55595efa32ac88c2439",
+    "url": "/static/media/pie7.206b024a.csv"
+  },
+  {
+    "revision": "5e79df4612ea060b2b105aeb9dedeee3",
+    "url": "/static/media/pietotal.5e79df46.csv"
   },
   {
     "revision": "40381fd48c577f36ebdd0e0252f1edd5",
@@ -162,6 +286,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "abff44c1881ae85ef018b260f1c6a58d",
     "url": "/static/media/speechChineseVirus.abff44c1.csv"
+  },
+  {
+    "revision": "fa082d2e0842b095f0261b7687868ca6",
+    "url": "/static/media/spotify.fa082d2e.png"
   },
   {
     "revision": "b4778b3691f19fbb3cdf0c6d08f5dcbc",
