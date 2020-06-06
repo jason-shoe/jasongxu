@@ -1,0 +1,71 @@
+
+.header-tr{
+    background-color: var(--font-color);
+    color: white;
+}
+table.grocery-data-table{
+    border: 1px solid var(--font-color);
+    border-collapse: collapse;
+    font-weight: normal;
+    width: 100%;
+    margin: 0%;
+}
+
+.grocery-data-table th{
+    border-right: 1px solid var(--font-color);
+
+    border-collapse: collapse;
+    font-weight: normal;
+}
+
+.grocery-data-table tr {
+    border: 1px solid var(--font-color);
+    border-collapse: collapse;
+    font-weight: normal;
+}
+
+.chart {
+}
+
+
+.piechart{
+    margin: auto 0;
+}
+
+.pie-chart-stuff{
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grocery-button{
+    width: 25%;
+    color: var(--font-color);
+    background-color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px var(--font-color) solid;
+    outline: none;
+    margin-bottom: 5px;
+}
+.grocery-button-dark{
+    width: 25%;
+    background-color: var(--font-color);
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px var(--font-color) solid;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.grocery-title{
+    font-size: 30px;
+    background-color: var(--header-one);
+    color: white;
+}
+
+#grocery-category{
+    font-weight: bold;
+}

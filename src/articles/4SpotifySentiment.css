@@ -1,0 +1,34 @@
+.dataset_header_spotify{
+    margin: 0;
+    width: 100%;
+
+}
+.dataset_header_spotify tr{
+    background-color: var(--font-color);
+    color:white;
+    text-align: center;
+    
+}
+
+.spotifyHalfImage{
+    width:48%;
+    margin: 1%;
+}
+
+.spotifyImageContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.spotifyFullImage{
+    width:80%;
+    margin: 1%;
+    margin-left:10%;
+}
+
+.spotifyKDEImage{
+    margin:1%;
+    width: 23%;
+}

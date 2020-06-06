@@ -1,6 +1,7 @@
 {
   "name": "jasongxu",
   "version": "0.1.0",
+  "homepage": "https://jasongxu.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
@@ -10,9 +11,11 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "d3": "^5.15.0",
+    "d3-geo": "^1.12.0",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
+    "react-addons-update": "^15.6.2",
     "react-dom": "^16.13.0",
     "react-fontawesome": "^1.7.1",
     "react-highlight": "^0.12.0",
@@ -21,8 +24,11 @@
     "react-latex": "^1.6.0",
     "react-markdown": "^4.3.1",
     "react-mathjax": "^1.0.1",
+    "react-responsive-carousel": "^3.2.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "react-simple-maps": "^2.0.0",
+    "react-tooltip": "^4.2.5",
     "rehype-katex": "^2.0.0",
     "remark-math": "^2.0.0"
   },
@@ -48,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

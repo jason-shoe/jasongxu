@@ -1,0 +1,102 @@
+.article-image{
+  width: 100%;
+}
+
+#bold{
+  font-weight: bold;
+}
+
+.nba-salary-followers{
+  width: 50%;
+  height:240px;
+}
+
+.nfl-salary-followers{
+  width: 50%;
+  height:240px;
+}
+
+.scatter-plot-graphs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#lorenz-header{
+  width: 80%;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.lorenz-curve{
+  width: 100%;
+}
+
+.lorenz-div{
+  width: 38%;
+  float: left;
+  margin-right: 2%;
+}
+
+.lorenz-description-div{
+  width: 100%;
+  display:inline-block;
+}
+
+.article-content p{
+  margin-bottom: 30px;
+}
+table.gini-coefficient{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 30%;
+  margin: 0 auto;
+}
+.gini-coefficient table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.gini-coefficient td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.gini-coefficient th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.yearly-growth-image{
+  width: 100%;
+}
+#yearly-growth-header-one{
+  margin-left:9%;
+  width: 44%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  align-self: flex-end;
+}
+#yearly-growth-header-two{
+  margin: auto 0;
+  margin-left:12.5%;
+  width:33.7%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  align-self: flex-end;
+}
+
+.yearly-growth-div{
+  display: flex;
+  width: 100%;
+}

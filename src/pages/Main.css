@@ -13,3 +13,13 @@
   margin: 0 auto;
   
 }
+
+.body{
+  width:70%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 14px;
+}
+body{
+  font-size: 14px;
+}
