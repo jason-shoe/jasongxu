@@ -68,7 +68,7 @@ class SpotifySentiment extends Component {
     }
   render(){
     return(
-    <body class="container">
+    <body class="articleContainer">
   		<Header pageNum = {5} />
         <MathJax.Provider>
             <div class="everything">
@@ -234,7 +234,7 @@ class SpotifySentiment extends Component {
                     Sad music differs from calm music in that it has slightly lower rhythm, slightly higher pitch, and slightly higher volume.
                     However, since these playlists are likely manually classified, there is prevelance of sad music
                     in the calm playlists is higher than the other playlists.</p>
-                    <p>Since the SGD Classifier performed slightly better than the Random Forest Classifier, I </p>
+                    <p>Since the SGD Classifier performed slightly better than the Random Forest Classifier, I decided to move forward with it.</p>
                     <h2>Model Tuning</h2>
                     <p>Tuning the model mostly consisted of adding more features through multiplication. I attempted to
                         joining both of the aforementioned datsets, however it did not yield significant improvements to the model's score.

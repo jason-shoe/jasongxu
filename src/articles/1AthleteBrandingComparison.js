@@ -33,7 +33,7 @@ class AthleteBrandingComparison extends Component {
 
   render(){
     return(
-    <div className="container">
+    <div className="articleContainer">
   		<Header pageNum = {5} />
       <MathJax.Provider>
   		<div className="everything">
@@ -173,7 +173,7 @@ class AthleteBrandingComparison extends Component {
              with time. The left scatter plot shows the average number of followers for the active players in each draft class.
              The right scatter plot shows the annual percent growth in Instagram following. This was created under
              the assumption that different draft classes have similar Instagram usage behavior as well as no increase in Instagram's total user count.</p>
-          <div className="row-flex">
+          <div className="row_flex">
             <div className="yearly-growth-div">
               <p id = "yearly-growth-header-one">Follower Count by Draft Class</p>
               <p id = "yearly-growth-header-two">Follower Count Growth by Years</p>

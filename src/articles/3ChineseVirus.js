@@ -85,7 +85,7 @@ class ChineseVirus extends Component {
     }
   render(){
     return(
-    <body class="container">
+    <body class="articleContainer">
   		<Header pageNum = {5} />
         <MathJax.Provider>
             <div class="everything">
@@ -132,7 +132,7 @@ class ChineseVirus extends Component {
                     meaning that the day on which the topic was most popular is assigned a value of 100, and all other
                     days are relative to that maximum value. Because of this, the graphs show relative popularity rather
                     than a numerical value for number of searches.</p>
-                  <div class="row-flex">
+                  <div class="row_flex">
                     <div>
                       <p id="google-trends-header">COVID-19 Usage</p>
                       <GoogleTrends name="COVID19Trend" dataset={COVID19}/>

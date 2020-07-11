@@ -1,0 +1,31 @@
+.skills_table{
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid var(--header-one);
+}
+
+#smaller_table{
+    height: 100%;
+}
+.star{
+    color: var(--header-one);
+}
+
+#altText{
+    font-weight: normal;
+    margin: 0px;
+}
+
+.skill{
+    margin-bottom: 0px;
+}
+
+.skills_label{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 4px;
+    margin-top: 0px;
+    flex: 0 1 auto;
+}

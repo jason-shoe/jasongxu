@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import './5Blog.css';
+import "./Main.css"
+import styles from './Blog.module.css';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 
 import ArticleOne from "../images/blog/nbavsnfl.jpg";
 import ArticleTwo from "../images/blog/groceryshopping.png";
 import ArticleThree from "../images/blog/chinesevirus.jpg"
+import ArticleFour from "../articles/graphs4/spotifycropped.png"
 import BlogArticlePreview from './components/BlogArticlePreview.js';
 
 class Blog extends Component {
@@ -15,6 +17,13 @@ class Blog extends Component {
     super(props);
     this.state = {
       projects: [
+        {
+          'title':'Spotify Sentiment Classifier',
+          'description':'An investigation into how the term "Chinese virus" has affected the Asian American community during the COVID-19 crisis as part of my final English presentaiton',
+          'image': ArticleFour,
+          'date': 'May 22, 2020',
+          'link':'/Blog/Spotify-Sentiment'
+        },
         {
           'title':'"Chinese Virus"',
           'description':'An investigation into how the term "Chinese virus" has affected the Asian American community during the COVID-19 crisis as part of my final English presentaiton',
@@ -45,24 +54,24 @@ class Blog extends Component {
 
   render(){
     return(
-    <div className="container">
+    <div>
   		<Header pageNum = {4} />
 
-  		<div className="everything" id="transition">
+  		<div className="everything">
         <h1 className= "underline">Data Science Blog</h1>
-  			<div className="article-list-big">
+  			<div className={styles.article_list_big}>
   				
-          <div className="article-preview-container">
+          <div className={styles.article_preview_container}>
             {this.state.projects.map((e,index) => index % 3 === 0 && <Link style={{ textDecoration: 'none' ,width:'33.333%'}} to={e.link}>
                                                                     <BlogArticlePreview articletitle = {e.title} description = {e.description} displayimage={e.image} date={e.date}/>
                                                                   </Link>)}
           </div>
-          <div className="article-preview-container">
+          <div className={styles.article_preview_container}>
             {this.state.projects.map((e,index) => index % 3 === 1 && <Link style={{ textDecoration: 'none' ,width:'33.333%'}} to={e.link}>
                                                                     <BlogArticlePreview articletitle = {e.title} description = {e.description} displayimage={e.image} date={e.date}/>
                                                                   </Link>)}
           </div>
-          <div className="article-preview-container">
+          <div className={styles.article_preview_container}>
             {this.state.projects.map((e,index) => index % 3 === 2 && <Link style={{ textDecoration: 'none' ,width:'33.333%'}} to={e.link}>
                                                                     <BlogArticlePreview articletitle = {e.title} description = {e.description} displayimage={e.image} date={e.date}/>
                                                                   </Link>)}

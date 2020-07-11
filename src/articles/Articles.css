@@ -5,10 +5,13 @@ h1{
   margin-top: 0px;
   color:var(--font-color)
 }
-
 h2{
   font-size: 30px;
   margin: 10px 0;
+  color:var(--font-color)
+}
+
+h3{
   color:var(--font-color)
 }
 
@@ -22,9 +25,10 @@ h2{
   font-size: 18px;
 }
 
-.row-flex{
+.row_flex{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .column-flex{
   display: flex;
@@ -32,4 +36,11 @@ h2{
 }
 .half{
   width: 50%;
+}
+
+.image_container{
+  width: 50%;
+  min-width: 300px;
+  height: 100%;
+  margin: auto 0;
 }

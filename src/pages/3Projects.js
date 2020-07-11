@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-import './3Projects.css';
-import Header from './components/Header.js';
-import Footer from './components/Footer.js';
+import styles from './Projects.module.css';
 import WikiAtomicEdits from "../images/browndatathon.jpg"
 import JumboCode from "../images/jumbocode.png"
 import Topcoder from "../images/topcoder.png"
@@ -28,7 +26,7 @@ class Projects extends Component {
           'name':'Just-A-Start Youthbuild',
           'group': 'Jumbocode',
           'date': 'September 2019 - Present',
-          'skills': ['HTML','CSS','Reac.JS'],
+          'skills': ['HTML','CSS','React.JS'],
           'description': 'On a team of 10, I have been working on implementing a front-end interface for a web application for Just-A-Start YouthBuild. Just-A-Start YouthBuild is a nonprofit organization aiming to educate people who have dropped out of traditional high school. I am currently learning React.js by creating admin and user interface prototypes from project designers.'
         },
         {
@@ -64,25 +62,21 @@ class Projects extends Component {
 
   render(){
     return(
-    <div className="container">
-      <Header pageNum = {2} />
-      <div className="body" id="transition">
+      <div>
         <h1 className="underline">Projects</h1>
-        {this.state.projects.map((element) =>  <div className="project_entry">
-                                                        <div className="project_image_container">
-                                                          <img className ="project_image" src={element.image} alt=""/>
+        {this.state.projects.map((element) =>  <div className={styles.project_entry}>
+                                                        <div className={styles.project_image_container}>
+                                                          <img className ={styles.project_image} src={element.image} alt=""/>
                                                         </div>
-                                                        <div className="project_text">
-                                                          <p className="project_name">{element.name}</p>
-                                                          <p className="project_group">{element.group}</p>
-                                                          <p className="date">{element.date}</p>
-                                                          <div className="bullet_list">{element.skills.map((e, index) => <div className="bullets">{ index !== 0 && <p className ="bullet">&bull;</p>} <p className="project_languages">{e}</p></div>)}</div>
-                                                          <p className="project_description">{element.description}</p>
+                                                        <div className={styles.project_text}>
+                                                          <p className={styles.project_name}>{element.name}</p>
+                                                          <p className={styles.project_group}>{element.group}</p>
+                                                          <p className={styles.date}>{element.date}</p>
+                                                          <div className={styles.bullet_list}>{element.skills.map((e, index) => <div className={styles.bullets}>{ index !== 0 && <p className ={styles.bullet}>&bull;</p>} <p className={styles.project_languages}>{e}</p></div>)}</div>
+                                                          <p className={styles.project_description}>{element.description}</p>
                                                         </div>
                                                       </div>)}
       </div>
-      <Footer />
-    </div>
     )
   }
 }

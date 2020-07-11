@@ -1,9 +1,0 @@
-.article-list-big{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.article-preview-container{
-  width: 33.333%;
-}

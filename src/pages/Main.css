@@ -6,20 +6,16 @@
 
 .underline{
   border-bottom: 1px solid var(--header-one);
+  padding-top: 20px;
 }
 
 .everything{
+  padding-top: 120px;
   width: 70%;
   margin: 0 auto;
   
 }
 
-.body{
-  width:70%;
-  margin: 0 auto;
-  text-align: left;
-  font-size: 14px;
-}
 body{
-  font-size: 14px;
+  font-size: 15px;
 }

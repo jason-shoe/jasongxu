@@ -1,0 +1,10 @@
+.article_list_big{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.article_preview_container{
+  width: 31.333%;
+}

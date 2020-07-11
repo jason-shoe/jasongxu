@@ -48,9 +48,6 @@
   display:inline-block;
 }
 
-.article-content p{
-  margin-bottom: 30px;
-}
 table.gini-coefficient{
   border: 1px solid black;
   border-collapse: collapse;
