@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "264e6655c4f01e0c0117062c9546b298",
+    "revision": "d9b678d44c9b340551b99d1b34d02b68",
     "url": "/index.html"
   },
   {
-    "revision": "114583cd4be898650cc4",
+    "revision": "895dd2ea31ad7912b07e",
     "url": "/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "cbe27a9a5a6d552b4426",
-    "url": "/static/css/main.158a13d9.chunk.css"
+    "revision": "3782ae037ed11e804910",
+    "url": "/static/css/main.4f715c04.chunk.css"
   },
   {
-    "revision": "114583cd4be898650cc4",
-    "url": "/static/js/2.2626ef0d.chunk.js"
+    "revision": "895dd2ea31ad7912b07e",
+    "url": "/static/js/2.d3b55aa1.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/static/js/2.2626ef0d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d3b55aa1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cbe27a9a5a6d552b4426",
-    "url": "/static/js/main.04b384ad.chunk.js"
+    "revision": "3782ae037ed11e804910",
+    "url": "/static/js/main.19313c1b.chunk.js"
   },
   {
     "revision": "1a525d3dd34be7394446",
@@ -60,6 +60,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/1happy.dde1d388.png"
   },
   {
+    "revision": "cb4e249bf7d8cd9d65669ead532acb08",
+    "url": "/static/media/1modelKNN1.cb4e249b.png"
+  },
+  {
+    "revision": "bc26240fb6ae4a6f751ead500d7fa384",
+    "url": "/static/media/1modelKNN2.bc26240f.png"
+  },
+  {
     "revision": "e9a521f467ac10b891b4db0a058d9848",
     "url": "/static/media/1sad.e9a521f4.png"
   },
@@ -74,6 +82,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "24a52e22ab9e9010a5d04fc629fafdb8",
     "url": "/static/media/2dataset2pairplot.24a52e22.png"
+  },
+  {
+    "revision": "3dd42499ee359dbf7c0e71a2ebc99bd9",
+    "url": "/static/media/3data1.3dd42499.png"
+  },
+  {
+    "revision": "1b964a7944757c7742941fb58e74ce2d",
+    "url": "/static/media/3data2.1b964a79.png"
   },
   {
     "revision": "8e8f41b4134ff3bbd5484c974a0b277c",
@@ -118,6 +134,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad27f0f76ae1aaf55840d4342e41959b",
     "url": "/static/media/3dataset3KDE9.ad27f0f7.png"
+  },
+  {
+    "revision": "6503545f76d5d838fe972fa21a24b1bf",
+    "url": "/static/media/3modelGNB1.6503545f.png"
+  },
+  {
+    "revision": "c1fb1a5800d1686a87943fdfc9a2eb9a",
+    "url": "/static/media/3modelGNB2.c1fb1a58.png"
+  },
+  {
+    "revision": "101c1ca87b40993a349785117e4ff285",
+    "url": "/static/media/3modelRFC1.101c1ca8.png"
+  },
+  {
+    "revision": "8c5251829c51f8e7e1ab12ac9eefbd59",
+    "url": "/static/media/3modelRFC2.8c525182.png"
+  },
+  {
+    "revision": "befe2858bae36d13eaf6ac9010edcc07",
+    "url": "/static/media/3modelSGD1.befe2858.png"
   },
   {
     "revision": "a58c1debe43c52165ef1945e8946d170",
@@ -180,12 +216,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Coronavirus.be1c82bc.csv"
   },
   {
-    "revision": "b8652a6762d3750abbc9d89006ce2634",
-    "url": "/static/media/browndatathon.b8652a67.jpg"
+    "revision": "bdc4cf913af9bef0d827f381d52be70f",
+    "url": "/static/media/aops.bdc4cf91.png"
   },
   {
-    "revision": "6b12fce2556bb1cd1522d1a3e3ac6ba1",
-    "url": "/static/media/c++.6b12fce2.png"
+    "revision": "316188edbeef046d9c1cf00446c60aa8",
+    "url": "/static/media/blueprint.316188ed.png"
+  },
+  {
+    "revision": "b8652a6762d3750abbc9d89006ce2634",
+    "url": "/static/media/browndatathon.b8652a67.jpg"
   },
   {
     "revision": "1830399160fa78e856daff23cc1b25bb",
@@ -196,8 +236,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/chineseviruscropped.54881917.jpg"
   },
   {
-    "revision": "83348086d8e2bc8ac96bdab7876a35e1",
-    "url": "/static/media/css.83348086.png"
+    "revision": "0a2fad4ba16673878ecf6b457af6b92d",
+    "url": "/static/media/dormify.0a2fad4b.png"
   },
   {
     "revision": "97f5a4102b319c2fc3f38c6a2a51fed2",
@@ -208,28 +248,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/groceryshoppingcropped.1586b465.jpg"
   },
   {
-    "revision": "47c7047d39f78a1aab43196f77947b73",
-    "url": "/static/media/html.47c7047d.png"
-  },
-  {
-    "revision": "452c4abde045ace852e8657e76e24d86",
-    "url": "/static/media/java.452c4abd.png"
-  },
-  {
-    "revision": "baebcf87f57908775f7bb5b98b400e8c",
-    "url": "/static/media/javascript.baebcf87.png"
-  },
-  {
-    "revision": "65978d163b81e122e692330e0c4db224",
-    "url": "/static/media/jxuResume.65978d16.pdf"
-  },
-  {
-    "revision": "59d527f6870a9c722fe9f01d6ef48ac8",
-    "url": "/static/media/latex.59d527f6.png"
-  },
-  {
-    "revision": "e3a3b8b5d31fe78fbd76a89349b6a01d",
-    "url": "/static/media/matlab.e3a3b8b5.png"
+    "revision": "5387ad7adf0161b907a51549632e8dcc",
+    "url": "/static/media/jxuResume.5387ad7a.pdf"
   },
   {
     "revision": "04cfca59419f45480460712bfb16631e",
@@ -276,12 +296,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile.40381fd4.jpeg"
   },
   {
-    "revision": "fd13b644f98d36158eba62dae79d8ed7",
-    "url": "/static/media/python.fd13b644.png"
-  },
-  {
-    "revision": "b25e4da0efcab442f7ad40b642ecf80a",
-    "url": "/static/media/saslogo.b25e4da0.png"
+    "revision": "ec8d08e8d7e0ef6ec5cf3df0a0c4998c",
+    "url": "/static/media/saslogo.ec8d08e8.png"
   },
   {
     "revision": "abff44c1881ae85ef018b260f1c6a58d",
@@ -290,6 +306,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fa082d2e0842b095f0261b7687868ca6",
     "url": "/static/media/spotify.fa082d2e.png"
+  },
+  {
+    "revision": "55d9bbc151f61dd96d6ef5c0c8544808",
+    "url": "/static/media/spotifycropped.55d9bbc1.png"
   },
   {
     "revision": "b4778b3691f19fbb3cdf0c6d08f5dcbc",
@@ -306,10 +326,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a59f829eb11c5d2d40584408f33ea1b",
     "url": "/static/media/tuftsemblem.8a59f829.png"
-  },
-  {
-    "revision": "80caf5c793c6951b231195b52ab2ed4e",
-    "url": "/static/media/vba.80caf5c7.png"
   },
   {
     "revision": "8dfd15edc9ce869db249474219c537d1",
