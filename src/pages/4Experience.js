@@ -8,17 +8,17 @@ class Experience extends Component {
 		super(props);
 		this.state = {
 		  experiences: [
-				{
-					'image':require("../images/tuftsemblem.png"),
-					'name':"Discrete Mathematics Teaching Assistant",
-					'date':"September 2020 - Present",
-					'description':[
-									"",
-									"",
-									""
-								],
-					'url':"hi"
-				},
+				// {
+				// 	'image':require("../images/tuftsemblem.png"),
+				// 	'name':"Discrete Mathematics Teaching Assistant",
+				// 	'date':"September 2020 - Present",
+				// 	'description':[
+				// 					"",
+				// 					"",
+				// 					""
+				// 				],
+				// 	'url':"hi"
+				// },
 				{
 					'image':require("../images/dormify.png"),
 					'name':"Dormify - Data Analytics Intern",
