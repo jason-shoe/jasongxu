@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9b678d44c9b340551b99d1b34d02b68",
+    "revision": "ca0abf5f62b5bb401ac28ef0eabd1564",
     "url": "/index.html"
   },
   {
-    "revision": "895dd2ea31ad7912b07e",
+    "revision": "39341cd832ca0d86f155",
     "url": "/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "3782ae037ed11e804910",
-    "url": "/static/css/main.4f715c04.chunk.css"
+    "revision": "03cefef4dc9e9c71eeab",
+    "url": "/static/css/main.5acd39ae.chunk.css"
   },
   {
-    "revision": "895dd2ea31ad7912b07e",
-    "url": "/static/js/2.d3b55aa1.chunk.js"
+    "revision": "39341cd832ca0d86f155",
+    "url": "/static/js/2.fd1e560c.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/static/js/2.d3b55aa1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.fd1e560c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3782ae037ed11e804910",
-    "url": "/static/js/main.19313c1b.chunk.js"
+    "revision": "03cefef4dc9e9c71eeab",
+    "url": "/static/js/main.f0adb6a1.chunk.js"
   },
   {
     "revision": "1a525d3dd34be7394446",
     "url": "/static/js/runtime-main.8f5dc94a.js"
+  },
+  {
+    "revision": "0804f077b9dd5dc23143e2c3260e2642",
+    "url": "/static/media/0main.0804f077.jpg"
   },
   {
     "revision": "868dfe1a0910d1b00abafac69458db97",
@@ -56,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/1energetic.157c35a8.png"
   },
   {
+    "revision": "156b12cea4e968ed170788f76aeb8b45",
+    "url": "/static/media/1fanduelodds.156b12ce.png"
+  },
+  {
     "revision": "dde1d388934f62b0465094fc5c322c03",
     "url": "/static/media/1happy.dde1d388.png"
   },
@@ -82,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "24a52e22ab9e9010a5d04fc629fafdb8",
     "url": "/static/media/2dataset2pairplot.24a52e22.png"
+  },
+  {
+    "revision": "8e6b915fbfcac13f988ce6554d5ea061",
+    "url": "/static/media/2player_stats.8e6b915f.png"
   },
   {
     "revision": "3dd42499ee359dbf7c0e71a2ebc99bd9",
@@ -134,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad27f0f76ae1aaf55840d4342e41959b",
     "url": "/static/media/3dataset3KDE9.ad27f0f7.png"
+  },
+  {
+    "revision": "30f39854b665361239276b3dc7a2fa87",
+    "url": "/static/media/3defense.30f39854.png"
   },
   {
     "revision": "6503545f76d5d838fe972fa21a24b1bf",
