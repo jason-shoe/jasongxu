@@ -44,3 +44,27 @@ h3{
   height: 100%;
   margin: auto 0;
 }
+
+.image_label{
+  text-align:center;
+  width: 100%;
+  color: gray;
+  margin: 0;
+  font-size: 15px;
+}
+
+.article_table{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.article_table td{
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+}
+.article_table th{
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+}

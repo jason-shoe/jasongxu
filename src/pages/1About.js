@@ -43,8 +43,6 @@ class About extends Component {
               since lived in Ohio, Texas, Hong Kong, Shanghai, and now Massachusetts.</p>
           <p id = {styles.transition}>My passion for Data Science stems from both my 
               love for basketball analytics as well as competitive mathematics.
-              Uncovering certain trends or truths from NBA player statistics in Microsoft Excel
-              has led  
               This website is meant to showcase some of my recent work. Here
               I have compiled together all my personal projects, education information,
               work experience, and much more.</p>
@@ -59,7 +57,6 @@ class About extends Component {
             <a className={styles.contact_button} href="https://github.com/jason-shoe"><FaGithub class={styles.resume_button} size="2em"/></a>
             <a className={styles.contact_button}  href="mailto: jxu13@tufts.edu"><FaEnvelopeOpen class={styles.resume_button} size="2em"/></a>
             <a className={styles.contact_button}  href="https://www.facebook.com/profile.php?id=100008322000625"><FaFacebook class={styles.resume_button} size="2em"/></a>
-            <a className={styles.contact_button}  href={Resume} download={Resume}><FaFilePdf class={styles.resume_button} size="2em"/></a>
             <a className={styles.contact_button}  href="https://www.linkedin.com/in/jasongxu/"><FaLinkedin class={styles.resume_button} size="2em"/></a>
           </div>
         </div>

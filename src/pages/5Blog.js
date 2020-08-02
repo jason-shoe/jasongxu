@@ -10,6 +10,8 @@ import ArticleOne from "../images/blog/nbavsnfl.jpg";
 import ArticleTwo from "../images/blog/groceryshopping.png";
 import ArticleThree from "../images/blog/chinesevirus.jpg"
 import ArticleFour from "../articles/graphs4/spotifycropped.png"
+import ArticleFive from "../articles/6bubblepredictions1/0main.jpg"
+import ArticleSix from "../articles/7bubblepredictions2/0main2.jpg"
 import BlogArticlePreview from './components/BlogArticlePreview.js';
 
 class Blog extends Component {
@@ -18,18 +20,25 @@ class Blog extends Component {
     this.state = {
       projects: [
         {
+          'title':'Mavericks vs Suns - NBA Bubble Predictions 2/8',
+          'description':'Using a Bias Boosted Monte Carlo Simulation to create more accurate confidence intervals. ',
+          'image': ArticleSix,
+          'date': 'August 2, 2020',
+          'link':'/Blog/bubble-predictions-suns'
+        },
+        {
+          'title':'Mavericks vs Rockets - NBA Bubble Predictions 1/8',
+          'description':'The first entry in a series of 8 that documents my descent into the world of taking "calculated risks". Using ML and exploratory data analysis to predict the outcome of NBA games in a world of uncertainty.',
+          'image': ArticleFive,
+          'date': 'July 30, 2020',
+          'link':'/Blog/bubble-predictions-rockets'
+        },
+        {
           'title':'Spotify Sentiment Classifier',
-          'description':'An investigation into how the term "Chinese virus" has affected the Asian American community during the COVID-19 crisis as part of my final English presentaiton',
+          'description':'Using Machine Learning to predict the sentiment of a song using Spotify API. Final result is an interactive app hosted on Heroku',
           'image': ArticleFour,
           'date': 'May 22, 2020',
           'link':'/Blog/Spotify-Sentiment'
-        },
-        {
-          'title':'"Chinese Virus"',
-          'description':'An investigation into how the term "Chinese virus" has affected the Asian American community during the COVID-19 crisis as part of my final English presentaiton',
-          'image': ArticleThree,
-          'date': 'April 4, 2020',
-          'link':'/Blog/Chinese-Virus'
         },
         {
           'title':'Grocery Shopping Data Visualization',

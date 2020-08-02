@@ -11,6 +11,8 @@ import GroceryShopping from './articles/2GroceryShopping.js'
 import ChineseVirus from './articles/3ChineseVirus.js'
 import SpotifySentiment from './articles/4SpotifySentiment.js'
 import SpotifyGenre from './articles/5SpotifyGenre.js'
+import BubblePredictions1 from './articles/6BubblePredictions1.js'
+import BubblePredictions2 from './articles/7BubblePredictions2.js'
 
 class App extends Component {
   componentDidMount(){
@@ -28,6 +30,8 @@ class App extends Component {
           <Route exact path="/Blog/Chinese-Virus" component={ChineseVirus} />
           <Route exact path="/Blog/Spotify-Sentiment" component={SpotifySentiment} />
           <Route exact path="/Blog/Spotify-Genre" component={SpotifyGenre} />
+          <Route exact path="/Blog/Bubble-Predictions-Rockets" component={BubblePredictions1} />
+          <Route exact path="/Blog/Bubble-Predictions-Suns" component={BubblePredictions2} />
         </div>
       </HashRouter>
     )
