@@ -30,10 +30,11 @@ class Header extends Component {
             <Link id={styles.to_hide} to="projects_element" spy={true} offset={-75} smooth={true} duration={500} className={styles.header_text} activeClass={styles.header_text_active}>PROJECTS</Link>
             
             <RedirectLink to="/blog" className={styles.header_text}>BLOG</RedirectLink>
+            <RedirectLink to="/onefivesix" className={styles.header_text}>156</RedirectLink>
           </div>
         </div>}
 
-        {this.props.pageNum !== 0 && <div className={styles.header}>
+        {this.props.pageNum === 4 && <div className={styles.header}>
           <RedirectLink to="/" className={styles.header_text}>JASON XU</RedirectLink>
           <div className = {styles.menu}>
             <RedirectLink id={styles.to_hide} to="/" className={styles.header_text}>EXPERIENCE</RedirectLink>
@@ -42,6 +43,19 @@ class Header extends Component {
             <RedirectLink id={styles.to_hide} to="/" className={styles.header_text}>PROJECTS</RedirectLink>
             
             <RedirectLink to="/blog" className={styles.blog_selected}>BLOG</RedirectLink>
+            <RedirectLink to="/onefivesix" className={styles.header_text}>156</RedirectLink>
+          </div>
+        </div>}
+        {this.props.pageNum === 5 && <div className={styles.header}>
+          <RedirectLink to="/" className={styles.header_text}>JASON XU</RedirectLink>
+          <div className = {styles.menu}>
+            <RedirectLink id={styles.to_hide} to="/" className={styles.header_text}>EXPERIENCE</RedirectLink>
+            <RedirectLink id={styles.to_hide} to="/" className={styles.header_text}>EDUCATION</RedirectLink>
+            <RedirectLink id={styles.to_hide} to="/" className={styles.header_text}>SKILLS</RedirectLink>
+            <RedirectLink id={styles.to_hide} to="/" className={styles.header_text}>PROJECTS</RedirectLink>
+            
+            <RedirectLink to="/blog" className={styles.header_text}>BLOG</RedirectLink>
+            <RedirectLink to="/onefivesix" className={styles.blog_selected}>156</RedirectLink>
           </div>
         </div>}
 

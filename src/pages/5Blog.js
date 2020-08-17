@@ -20,15 +20,15 @@ class Blog extends Component {
     this.state = {
       projects: [
         {
-          'title':'Mavericks vs Suns - NBA Bubble Predictions 2/8',
+          'title':'Mavericks vs Suns - NBA Bubble Predictions 2/2',
           'description':'Using a Bias Boosted Monte Carlo Simulation to create more accurate confidence intervals. ',
           'image': ArticleSix,
           'date': 'August 2, 2020',
           'link':'/Blog/bubble-predictions-suns'
         },
         {
-          'title':'Mavericks vs Rockets - NBA Bubble Predictions 1/8',
-          'description':'The first entry in a series of 8 that documents my descent into the world of taking "calculated risks". Using ML and exploratory data analysis to predict the outcome of NBA games in a world of uncertainty.',
+          'title':'Mavericks vs Rockets - NBA Bubble Predictions 1/2',
+          'description':'Using ML and exploratory data analysis to predict the outcome of NBA games in the uncertainty of the NBA bubble.',
           'image': ArticleFive,
           'date': 'July 30, 2020',
           'link':'/Blog/bubble-predictions-rockets'
