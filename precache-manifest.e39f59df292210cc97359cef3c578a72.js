@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe783e3fbbed62873eaccc3fecd46816",
+    "revision": "900f690a7569c98f5f77c5f5d19e5a29",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "70b998eb3340ba6051e3",
+    "revision": "426e65758069b887e299",
     "url": "/static/css/main.8f1718fe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.774391d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70b998eb3340ba6051e3",
-    "url": "/static/js/main.bb455f65.chunk.js"
+    "revision": "426e65758069b887e299",
+    "url": "/static/js/main.27834377.chunk.js"
   },
   {
     "revision": "1a525d3dd34be7394446",
@@ -300,8 +300,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dormify.0a2fad4b.png"
   },
   {
-    "revision": "4a5a993483186858a037e7d335ec0a94",
-    "url": "/static/media/games.4a5a9934.csv"
+    "revision": "84c0124192c822df416c7a67fd21aac0",
+    "url": "/static/media/games.84c01241.csv"
   },
   {
     "revision": "97f5a4102b319c2fc3f38c6a2a51fed2",
