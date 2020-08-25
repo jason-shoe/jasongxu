@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://jasongxu.com/static/css/main.8f1718fe.chunk.css",
-    "main.js": "https://jasongxu.com/static/js/main.b8b33c13.chunk.js",
-    "main.js.map": "https://jasongxu.com/static/js/main.b8b33c13.chunk.js.map",
+    "main.js": "https://jasongxu.com/static/js/main.f9b3f30a.chunk.js",
+    "main.js.map": "https://jasongxu.com/static/js/main.f9b3f30a.chunk.js.map",
     "runtime-main.js": "https://jasongxu.com/static/js/runtime-main.38842096.js",
     "runtime-main.js.map": "https://jasongxu.com/static/js/runtime-main.38842096.js.map",
     "static/css/2.afd40c00.chunk.css": "https://jasongxu.com/static/css/2.afd40c00.chunk.css",
     "static/js/2.774391d4.chunk.js": "https://jasongxu.com/static/js/2.774391d4.chunk.js",
     "static/js/2.774391d4.chunk.js.map": "https://jasongxu.com/static/js/2.774391d4.chunk.js.map",
     "index.html": "https://jasongxu.com/index.html",
-    "precache-manifest.85ff5be70bf742f2adc572e2461412e1.js": "https://jasongxu.com/precache-manifest.85ff5be70bf742f2adc572e2461412e1.js",
+    "precache-manifest.fba4d8d0286aaa18956e26e7f223823b.js": "https://jasongxu.com/precache-manifest.fba4d8d0286aaa18956e26e7f223823b.js",
     "service-worker.js": "https://jasongxu.com/service-worker.js",
     "static/css/2.afd40c00.chunk.css.map": "https://jasongxu.com/static/css/2.afd40c00.chunk.css.map",
     "static/css/main.8f1718fe.chunk.css.map": "https://jasongxu.com/static/css/main.8f1718fe.chunk.css.map",
@@ -81,7 +81,7 @@
     "static/media/browndatathon.jpg": "https://jasongxu.com/static/media/browndatathon.b8652a67.jpg",
     "static/media/chineseviruscropped.jpg": "https://jasongxu.com/static/media/chineseviruscropped.54881917.jpg",
     "static/media/dormify.png": "https://jasongxu.com/static/media/dormify.0a2fad4b.png",
-    "static/media/games.csv": "https://jasongxu.com/static/media/games.0e3c707f.csv",
+    "static/media/games.csv": "https://jasongxu.com/static/media/games.d94b0a20.csv",
     "static/media/groceryshopping.png": "https://jasongxu.com/static/media/groceryshopping.97f5a410.png",
     "static/media/groceryshoppingcropped.jpg": "https://jasongxu.com/static/media/groceryshoppingcropped.1586b465.jpg",
     "static/media/jxuResume.pdf": "https://jasongxu.com/static/media/jxuResume.5387ad7a.pdf",
@@ -111,6 +111,6 @@
     "static/css/2.afd40c00.chunk.css",
     "static/js/2.774391d4.chunk.js",
     "static/css/main.8f1718fe.chunk.css",
-    "static/js/main.b8b33c13.chunk.js"
+    "static/js/main.f9b3f30a.chunk.js"
   ]
 }

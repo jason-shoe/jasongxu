@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34ca1697a06f61a0fbf2dc1aa6500435",
+    "revision": "e75ad5a7cdcbd44890b729b97e8089f6",
     "url": "https://jasongxu.com/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jasongxu.com/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "9d28d17ddc6d6938df5e",
+    "revision": "5af9cb54df0c64febbf8",
     "url": "https://jasongxu.com/static/css/main.8f1718fe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jasongxu.com/static/js/2.774391d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d28d17ddc6d6938df5e",
-    "url": "https://jasongxu.com/static/js/main.b8b33c13.chunk.js"
+    "revision": "5af9cb54df0c64febbf8",
+    "url": "https://jasongxu.com/static/js/main.f9b3f30a.chunk.js"
   },
   {
     "revision": "758def095f2532c8fc75",
@@ -300,8 +300,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jasongxu.com/static/media/dormify.0a2fad4b.png"
   },
   {
-    "revision": "0e3c707f9409214cffd0469c218275cc",
-    "url": "https://jasongxu.com/static/media/games.0e3c707f.csv"
+    "revision": "d94b0a20877c4870ecaa6a5ffdda1282",
+    "url": "https://jasongxu.com/static/media/games.d94b0a20.csv"
   },
   {
     "revision": "97f5a4102b319c2fc3f38c6a2a51fed2",
