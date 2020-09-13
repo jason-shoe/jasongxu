@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9242a73f428924f25c12ba3e47ab8b3",
+    "revision": "3f2d882a392df06d5af1466f29e3b923",
     "url": "https://jasongxu.com/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jasongxu.com/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "453cf5800f2ec341dbc8",
+    "revision": "1717427eaf0b16121e63",
     "url": "https://jasongxu.com/static/css/main.8f1718fe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jasongxu.com/static/js/2.774391d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "453cf5800f2ec341dbc8",
-    "url": "https://jasongxu.com/static/js/main.4bf85619.chunk.js"
+    "revision": "1717427eaf0b16121e63",
+    "url": "https://jasongxu.com/static/js/main.9e2c96d9.chunk.js"
   },
   {
     "revision": "758def095f2532c8fc75",
@@ -312,8 +312,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jasongxu.com/static/media/groceryshoppingcropped.1586b465.jpg"
   },
   {
-    "revision": "5387ad7adf0161b907a51549632e8dcc",
-    "url": "https://jasongxu.com/static/media/jxuResume.5387ad7a.pdf"
+    "revision": "543bb9dd7917bd0bbe3a5c57c678d632",
+    "url": "https://jasongxu.com/static/media/jxuResume.543bb9dd.pdf"
   },
   {
     "revision": "04cfca59419f45480460712bfb16631e",

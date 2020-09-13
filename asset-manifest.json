@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://jasongxu.com/static/css/main.8f1718fe.chunk.css",
-    "main.js": "https://jasongxu.com/static/js/main.4bf85619.chunk.js",
-    "main.js.map": "https://jasongxu.com/static/js/main.4bf85619.chunk.js.map",
+    "main.js": "https://jasongxu.com/static/js/main.9e2c96d9.chunk.js",
+    "main.js.map": "https://jasongxu.com/static/js/main.9e2c96d9.chunk.js.map",
     "runtime-main.js": "https://jasongxu.com/static/js/runtime-main.38842096.js",
     "runtime-main.js.map": "https://jasongxu.com/static/js/runtime-main.38842096.js.map",
     "static/css/2.afd40c00.chunk.css": "https://jasongxu.com/static/css/2.afd40c00.chunk.css",
     "static/js/2.774391d4.chunk.js": "https://jasongxu.com/static/js/2.774391d4.chunk.js",
     "static/js/2.774391d4.chunk.js.map": "https://jasongxu.com/static/js/2.774391d4.chunk.js.map",
     "index.html": "https://jasongxu.com/index.html",
-    "precache-manifest.72edb5175af15f20d4b56e279146bf39.js": "https://jasongxu.com/precache-manifest.72edb5175af15f20d4b56e279146bf39.js",
+    "precache-manifest.e65c83ffde4860d720a77f83285794f1.js": "https://jasongxu.com/precache-manifest.e65c83ffde4860d720a77f83285794f1.js",
     "service-worker.js": "https://jasongxu.com/service-worker.js",
     "static/css/2.afd40c00.chunk.css.map": "https://jasongxu.com/static/css/2.afd40c00.chunk.css.map",
     "static/css/main.8f1718fe.chunk.css.map": "https://jasongxu.com/static/css/main.8f1718fe.chunk.css.map",
@@ -84,7 +84,7 @@
     "static/media/games.csv": "https://jasongxu.com/static/media/games.363cc4e5.csv",
     "static/media/groceryshopping.png": "https://jasongxu.com/static/media/groceryshopping.97f5a410.png",
     "static/media/groceryshoppingcropped.jpg": "https://jasongxu.com/static/media/groceryshoppingcropped.1586b465.jpg",
-    "static/media/jxuResume.pdf": "https://jasongxu.com/static/media/jxuResume.5387ad7a.pdf",
+    "static/media/jxuResume.pdf": "https://jasongxu.com/static/media/jxuResume.543bb9dd.pdf",
     "static/media/nbavsnfl.jpg": "https://jasongxu.com/static/media/nbavsnfl.04cfca59.jpg",
     "static/media/nbavsnflcropped.png": "https://jasongxu.com/static/media/nbavsnflcropped.feef8358.png",
     "static/media/pie1.csv": "https://jasongxu.com/static/media/pie1.359cf142.csv",
@@ -111,6 +111,6 @@
     "static/css/2.afd40c00.chunk.css",
     "static/js/2.774391d4.chunk.js",
     "static/css/main.8f1718fe.chunk.css",
-    "static/js/main.4bf85619.chunk.js"
+    "static/js/main.9e2c96d9.chunk.js"
   ]
 }
