@@ -13,7 +13,6 @@
     "d3": "^5.15.0",
     "d3-geo": "^1.12.0",
     "font-awesome": "^4.7.0",
-    "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-addons-update": "^15.6.2",
     "react-dom": "^16.13.0",
@@ -27,6 +26,7 @@
     "react-responsive-carousel": "^3.2.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "react-scroll": "^1.8.9",
     "react-simple-maps": "^2.0.0",
     "react-tooltip": "^4.2.5",
     "rehype-katex": "^2.0.0",
@@ -56,6 +56,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "sass": "^1.62.1"
   }
 }
