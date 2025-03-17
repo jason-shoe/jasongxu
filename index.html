@@ -1,1 +1,214 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>React App</title><link href="/static/css/2.1ba447cc.chunk.css" rel="stylesheet"><link href="/static/css/main.0aa3de0b.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,l,a=r[0],f=r[1],i=r[2],c=0,s=[];c<a.length;c++)l=a[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,i||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var f=t[a];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var a=this.webpackJsonpjasongxu=this.webpackJsonpjasongxu||[],f=a.push.bind(a);a.push=r,a=a.slice();for(var i=0;i<a.length;i++)r(a[i]);var p=f;t()}([])</script><script src="/static/js/2.fb200385.chunk.js"></script><script src="/static/js/main.9ce78b92.chunk.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jason Xu - Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+    />
+    <style>
+      :root {
+        --bg-color: #0e0e0e;
+        --card-bg: #1a1a1a;
+        --card-accent: #80b3b9;
+        --text-color: #ffffff;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu Mono', 'Lucida Console', 'Courier New', monospace;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.5;
+      }
+
+      .container {
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .profile-card {
+        position: relative;
+        z-index: 1;
+      }
+
+      .profile-image-container {
+        position: relative;
+        width: 220px;
+        height: 250px;
+        z-index: 20;
+        margin: 0 auto;
+        transition:
+          transform 0.8s ease,
+          margin 0.8s ease;
+      }
+
+      .profile-image-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #93d5e1;
+        border-radius: 2rem;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        transition:
+          bottom 0.6s ease,
+          left 0.6s ease;
+      }
+
+      .profile-image {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 2rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        border: 3px solid #b2e3eb;
+      }
+
+      .profile-info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        visibility: hidden;
+        transition:
+          transform 0.8s ease,
+          opacity 0.8s ease,
+          visibility 0s 0.8s;
+        text-align: center;
+      }
+
+      .profile-name {
+        font-size: 1.5rem;
+        font-weight: normal;
+        margin-bottom: 0.5rem;
+        text-transform: lowercase;
+      }
+
+      .profile-title {
+        font-size: 1rem;
+        color: #cccccc;
+        margin-bottom: 1rem;
+        font-weight: normal;
+        text-transform: lowercase;
+        white-space: nowrap;
+      }
+
+      .profile-contact {
+        font-size: 0.9rem;
+        color: #cccccc;
+        margin-top: 1rem;
+      }
+
+      .profile-contact a {
+        color: var(--text-color);
+        text-decoration: none;
+      }
+
+      /* Desktop animation */
+      .container.animated .profile-image-container {
+        transform: translateX(-110px);
+        margin: 0;
+      }
+
+      .container.animated .profile-image-bg {
+        bottom: -15px;
+        left: -15px;
+        right: auto;
+      }
+
+      .container.animated .profile-info {
+        transform: translate(0, -50%);
+        left: 170px;
+        opacity: 1;
+        visibility: visible;
+        transition:
+          transform 0.8s ease,
+          opacity 0.8s ease,
+          left 0.8s ease;
+        text-align: left;
+      }
+
+      /* Mobile styles and animation */
+      @media (max-width: 768px) {
+        .profile-info {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, 80%);
+          opacity: 0;
+          visibility: hidden;
+          width: 100%;
+          text-align: center;
+        }
+
+        .container.animated .profile-image-container {
+          transform: translateY(-60px);
+          scale: 0.5;
+          margin: 0;
+        }
+
+        .container.animated .profile-info {
+          transform: translate(-50%, 120%);
+          scale: 0.5;
+          opacity: 1;
+          visibility: visible;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="profile-card">
+        <div class="profile-image-container">
+          <div class="profile-image-bg"></div>
+          <img
+            class="profile-image"
+            src="./assets/profile-pic-c7ASML9K.png"
+            alt="Profile image"
+          />
+        </div>
+        <div class="profile-info">
+          <h1 class="profile-name">jason xu</h1>
+          <div class="profile-title">
+            ex-palantir<br />
+            currently building restaurant tech
+          </div>
+          <div class="profile-contact">
+            <a href="mailto:jasonxu01@gmail.com">jasonxu01@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Longer delay before triggering the animation
+        setTimeout(function () {
+          document.getElementById('container').classList.add('animated');
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
